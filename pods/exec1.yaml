@@ -4,9 +4,9 @@ metadata:
   name: exec1
  spec:
    Containers:
-     name: nginx
+    - name: nginx
        image: nginx
        Port:
-         containerPort: 80 
+        - containerPort: 80 
 
 
