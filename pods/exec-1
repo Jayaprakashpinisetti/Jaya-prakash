@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: exec-1
+ spec:
+   Containers:
+     name: nginx
+       image: nginx
+       Port:
+         containerPort: 80 
+
+
